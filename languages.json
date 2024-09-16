@@ -1,0 +1,10 @@
+{
+	"py": ["py"],
+	"java":["java"],
+	"js":["js"],
+	"cpp":["cpp"],
+	"json":["json"],
+	"xml":["xml"],
+	"yml":["yml"],
+	"groovy":["groovy"]
+}

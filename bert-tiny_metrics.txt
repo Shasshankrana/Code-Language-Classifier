@@ -1,0 +1,31 @@
+Predicted on 4398 files. Results are as follows:
+
+Confusion Matrix:
+            java        python      javascript  cpp         json        yml         groovy      xml         
+java        111         0           1           0           0           0           0           0           
+python      0           98          2           0           1           3           0           0           
+javascript  0           1           112         0           1           0           1           0           
+cpp         0           0           4           49          0           0           1           0           
+json        0           0           2           0           1241        11          0           1           
+yml         0           0           0           1           2           1392        0           1           
+groovy      3           1           2           0           0           0           10          0           
+xml         0           0           0           0           0           4           0           1342        
+
+Classification Report
+              precision    recall  f1-score   support
+
+        java       0.97      0.99      0.98       112
+      python       0.98      0.94      0.96       104
+  javascript       0.91      0.97      0.94       115
+         cpp       0.98      0.91      0.94        54
+        json       1.00      0.99      0.99      1255
+         yml       0.99      1.00      0.99      1396
+      groovy       0.83      0.62      0.71        16
+         xml       1.00      1.00      1.00      1346
+
+    accuracy                           0.99      4398
+   macro avg       0.96      0.93      0.94      4398
+weighted avg       0.99      0.99      0.99      4398
+
+Throughput: 16.44 files/second
+Processed Files: 680
